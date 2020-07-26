@@ -4,19 +4,32 @@
     position: relative ;
     color: red ;
     margin: 0em !important;
-    display: flex ;
+    display: flex;
 }
 .pipediv1{
     height:250px;
     width :150px;
+    top : 150;
+    right: -300 ;
+    /* border :1px solid red; */
+    position: relative ;
+    align-items: center;
 }
 .pipediv2{
     height:250px;
     width :150px;
+    top : 150;
+    right: -450 ;
+    /* border: 1px solid blue; */
+    position: relative ;
 }
 .pipediv3{
     height:250px;
     width :150px;
+    top : 150;
+    right: -600 ;
+    /* border: 1px solid green; */
+    position: relative ;
 }
 .pipe{
     height : 250px;
@@ -27,42 +40,31 @@
     margin : 0px;
 }
 #pipe1{
-    top : 100;
-    right: -300 ;
+    left: 70;
     background-color: teal;
-    /* border : 1px solid teal ; */
+     
 }
 #base1{
     height: 10px;
-    top : 100;
-    right: -230 ;
     position: relative ;
     background-color: teal;
 }
 #pipe2{
-    top : 100px;
-    left: 500px;
-    
+    left: 70;
     background-color: red;
-    /* border : 1px solid teal ; */
 }
 #base2{
     height: 10px;
-    top : 100;
-    right: -430 ;
     position: relative ;
     background-color:  red;
 }
 #pipe3{
-    top : 100px;
-    left: 700px;
+     left: 70 ;
     background-color: green;
-    /* border : 1px solid teal ; */
+     
 }
 #base3{
     height: 10px;
-    top : 100;
-    right: -630 ;
     position: relative ;
     background-color: green;
 }
